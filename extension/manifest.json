@@ -1,0 +1,37 @@
+{
+  "name": "Send-Like", 
+  "short_name": "SendLike",
+  "description": "Shortcut for sending Like on messenger.com",
+  "version": "0.0.0",
+  "permissions": [
+    "activeTab", "https://www.messenger.com/*", "tabs"
+  ],
+  "icons": { 
+    "16": "assets/icon-16.png",
+    "24": "assets/icon-24.png",
+    "32": "assets/icon-32.png",
+    "128": "assets/icon-128.png" 
+  },
+  "background": {
+    "scripts": ["src/background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.messenger.com/*"],
+      "js": ["src/send_like.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "commands": {
+    "send_like": {
+      "suggested_key": {
+        "windows": "Ctrl + Up",
+        "mac": "MacCtrl+Up",
+        "chromeos": "Ctrl + Up",
+        "linux": "Ctrl + Up"
+      }, "description": "Send likes on messenger.com"
+    }
+  },
+  "manifest_version": 2
+}

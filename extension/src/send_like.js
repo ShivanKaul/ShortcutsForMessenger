@@ -11,8 +11,8 @@ chrome.runtime.onMessage.addListener(
 			var likeButton = document.querySelector('[title="Send a Like"]');
 			// Simulate mouse click sequence: 
 			// https://stackoverflow.com/questions/24025165/simulating-a-mousedown-click-mouseup-sequence-in-tampermonkey
-			triggerMouseEvent (targetNode, "mousedown");
-			triggerMouseEvent (targetNode, "mouseup");
+			triggerMouseEvent (likeButton, "mousedown");
+			triggerMouseEvent (likeButton, "mouseup");
 		}
 	}
 );

@@ -1,8 +1,8 @@
 {
-  "name": "Send-Like", 
-  "short_name": "SendLike",
-  "description": "Shortcut for sending Like on messenger.com",
-  "version": "0.0.0",
+  "name": "ShortcutsForMessenger", 
+  "short_name": "S4M",
+  "description": "Shortcuts for messenger.com",
+  "version": "0.0.2",
   "permissions": [
     "activeTab", "https://www.messenger.com/*", "tabs"
   ],
@@ -19,18 +19,26 @@
   "content_scripts": [
     {
       "matches": ["https://www.messenger.com/*"],
-      "js": ["src/send_like.js"],
+      "js": ["src/shortcuts.js"],
       "run_at": "document_end"
     }
   ],
   "commands": {
-    "send_like": {
+    "sendLike": {
       "suggested_key": {
         "windows": "Ctrl + Up",
         "mac": "MacCtrl+Up",
         "chromeos": "Ctrl + Up",
         "linux": "Ctrl + Up"
-      }, "description": "Send likes on messenger.com"
+      }, "description": "Send like"
+    },
+    "search": {
+      "suggested_key": {
+        "windows": "Ctrl + Period",
+        "mac": "MacCtrl + Period",
+        "chromeos": "Ctrl + Period",
+        "linux": "Ctrl + Period"
+      }, "description": "Search"
     }
   },
   "manifest_version": 2

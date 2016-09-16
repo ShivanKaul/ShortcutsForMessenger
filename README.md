@@ -1,1 +1,6 @@
-This is a Chrome Extension that allows you to send a Like in a Facebook message on messenger.com by pressing the shortcut `Control + Up Key`. 
+This is a Chrome Extension that gives you shortcuts on [Messenger.com](https://messenger.com). 
+
+- Send Like: `Control + Up Key`
+- Focus search bar: `Control + .`
+
+More to come! 

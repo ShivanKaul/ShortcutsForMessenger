@@ -34,10 +34,10 @@
     },
     "search": {
       "suggested_key": {
-        "windows": "Ctrl + Period",
-        "mac": "MacCtrl + Period",
-        "chromeos": "Ctrl + Period",
-        "linux": "Ctrl + Period"
+        "windows": "Ctrl + K",
+        "mac": "MacCtrl + K",
+        "chromeos": "Ctrl + K",
+        "linux": "Ctrl + K"
       }, "description": "Search"
     }
   },

@@ -2,7 +2,7 @@
   "name": "ShortcutsForMessenger", 
   "short_name": "S4M",
   "description": "Shortcuts for messenger.com",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "permissions": [
     "activeTab", "https://www.messenger.com/*", "tabs"
   ],
@@ -39,6 +39,14 @@
         "chromeos": "Ctrl + K",
         "linux": "Ctrl + K"
       }, "description": "Search"
+    },
+    "newMessage": {
+      "suggested_key": {
+        "windows": "Ctrl + N",
+        "mac": "MacCtrl + N",
+        "chromeos": "Ctrl + N",
+        "linux": "Ctrl + N"
+      }, "description": "New message"
     }
   },
   "manifest_version": 2

@@ -2,5 +2,6 @@ This is a Chrome Extension that gives you shortcuts on [Messenger.com](https://m
 
 - Send Like: `Control + Up Key`
 - Focus search bar: `Control + K`
+- New message: `Control + N`
 
 More to come! 

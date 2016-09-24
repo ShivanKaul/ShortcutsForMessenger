@@ -18,6 +18,10 @@ function handleShortcut(shortcut) {
 		// http://stackoverflow.com/a/24450735/2989693
 		selector.focus();
 	}
+	else if (shortcut.newMessage) {
+		selector = document.querySelector('[title="New Message"]');
+		selector.click();
+	}
 }
 
 chrome.runtime.onMessage.addListener(

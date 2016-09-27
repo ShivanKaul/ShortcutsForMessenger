@@ -1,8 +1,8 @@
 {
-  "name": "ShortcutsForMessenger", 
-  "short_name": "S4M",
-  "description": "Shortcuts for messenger.com",
-  "version": "0.0.4",
+  "name": "ShortcutsForMessenger-1", 
+  "short_name": "S4M1",
+  "description": "Shortcuts for messenger.com, first part",
+  "version": "0.0.7",
   "permissions": [
     "activeTab", "https://www.messenger.com/*", "tabs"
   ],
@@ -47,6 +47,14 @@
         "chromeos": "Ctrl + N",
         "linux": "Ctrl + N"
       }, "description": "New message"
+    },
+    "conversationInfo": {
+      "suggested_key": {
+        "windows": "Ctrl + I",
+        "mac": "MacCtrl + I",
+        "chromeos": "Ctrl + I",
+        "linux": "Ctrl + I"
+      }, "description": "Toggle conversation info"
     }
   },
   "manifest_version": 2

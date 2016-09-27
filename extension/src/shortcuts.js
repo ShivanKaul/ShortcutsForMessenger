@@ -22,6 +22,10 @@ function handleShortcut(shortcut) {
 		selector = document.querySelector('[title="New Message"]');
 		selector.click();
 	}
+	else if (shortcut.conversationInfo) {
+		selector = document.querySelector('[title="Conversation Information"]');
+		selector.click();
+	}
 }
 
 chrome.runtime.onMessage.addListener(
